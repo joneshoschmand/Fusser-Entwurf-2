@@ -1373,11 +1373,13 @@ p {
 
   /* — Hero — */
   .hero-content {
-    padding: var(--space-12) 0 var(--space-8);
+    padding: var(--space-12) var(--space-3) var(--space-8);
+    text-align: center;
+    margin: 0 auto;
   }
 
   .hero h1 {
-    font-size: clamp(1.6rem, 5.5vw, 2.25rem);
+    font-size: clamp(2.25rem, 8vw, 3rem);
   }
 
   .hero .subtitle {
@@ -1537,7 +1539,7 @@ p {
   h2 { font-size: clamp(1.5rem, 6vw, 2rem); }
 
   .hero-content {
-    padding: var(--space-10) 0 var(--space-6);
+    padding: var(--space-10) var(--space-2) var(--space-6);
   }
 
   .stats-grid {
