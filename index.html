@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Herz-Licht Alltagshilfe – Würdevolles Altern in den eigenen vier Wänden. Wir vermitteln liebevolle 24-Stunden-Betreuung für Senioren zuhause.">
+  <meta name="keywords" content="Seniorenbetreuung, 24-Stunden-Betreuung, Pflege zuhause, Alltagsbegleitung, Betreuungskräfte, Herz-Licht">
+  <title>Herz-Licht Alltagshilfe – Würdevolles Altern zuhause</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23D05B55'/%3E%3Ctext x='50%25' y='55%25' font-family='serif' font-size='20' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='middle'%3EH%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="Herz-Licht Alltagshilfe – Startseite">
+        <img src="assets/logo.png" alt="Herz-Licht Logo" class="logo-img" width="44" height="44">
+        <span class="logo-text">Herz-Licht</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Navigation öffnen" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" role="navigation" aria-label="Hauptnavigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Start</a></li>
+          <li><a href="#angebot" class="nav-link">Angebot</a></li>
+          <li><a href="#warum-wir" class="nav-link">Warum wir</a></li>
+          <li><a href="#ueber-uns" class="nav-link">Über uns</a></li>
+          <li><a href="#kontakt" class="nav-link nav-cta">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+
+  <main role="main">
+
+    <!-- ============================================================
+         HERO SECTION
+         ============================================================ -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg">
+        <img src="assets/hero.png" alt="Hände, die fürsorglich von einer Betreuungskraft gehalten werden" width="1920" height="1080">
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <p class="subtitle reveal">24-Stunden Seniorenbetreuung</p>
+        <h1 id="hero-heading" class="reveal reveal-delay-1">
+          Würdevolles Altern <span class="highlight">in den eigenen vier Wänden.</span>
+        </h1>
+        <p class="hero-description reveal reveal-delay-2">
+          Wir unterstützen Familien dabei, eine zuverlässige und liebevolle 24-Stunden-Betreuung für Seniorinnen und Senioren im eigenen Zuhause zu organisieren.
+        </p>
+        <div class="hero-actions reveal reveal-delay-3">
+          <a href="#kontakt" class="btn btn-primary">
+            Jetzt beraten lassen
+            <svg class="btn-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 10h10M11 6l4 4-4 4"/></svg>
+          </a>
+          <a href="#angebot" class="btn btn-outline">Mehr erfahren</a>
+        </div>
+      </div>
+
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         STATS SECTION
+         ============================================================ -->
+    <section class="stats-section" aria-label="Statistiken">
+      <div class="container">
+        <div class="stats-grid">
+          <article class="stat-item reveal">
+            <div class="stat-number" data-target="98" data-suffix="%">0%</div>
+            <p class="stat-label">Zufriedene Familien</p>
+          </article>
+          <article class="stat-item reveal reveal-delay-1">
+            <div class="stat-number" data-target="500" data-suffix="+">0+</div>
+            <p class="stat-label">Erfolgreiche Vermittlungen</p>
+          </article>
+          <article class="stat-item reveal reveal-delay-2">
+            <div class="stat-number" data-target="15" data-suffix="+">0+</div>
+            <p class="stat-label">Jahre Erfahrung</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ANGEBOT / SERVICES SECTION
+         ============================================================ -->
+    <section class="section" id="angebot" aria-labelledby="angebot-heading">
+      <div class="container">
+        <header class="section-header centered">
+          <p class="subtitle reveal">Unser Angebot</p>
+          <h2 id="angebot-heading" class="reveal reveal-delay-1">Alles aus einer Hand für Ihre Familie</h2>
+          <p class="reveal reveal-delay-2">Von der ersten Beratung bis zur laufenden Betreuung — wir begleiten Sie persönlich durch jeden Schritt.</p>
+        </header>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <article class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 7a4 4 0 1 0 8 0 4 4 0 0 0-8 0"/>
+                <path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                <path d="M21 21v-2a4 4 0 0 0-3-3.87"/>
+              </svg>
+            </div>
+            <h3>Bedarfsermittlung & Beratung</h3>
+            <p>Persönliche Analyse Ihrer Situation und individuelle Beratung für die optimale Betreuungslösung.</p>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="service-card reveal reveal-delay-1">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </div>
+            <h3>Passende Betreuungskräfte</h3>
+            <p>Sorgfältige Auswahl liebevoller Alltagsbegleiter*innen aus Osteuropa, die zu Ihrer Familie passen.</p>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="service-card reveal reveal-delay-2">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+                <path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01"/>
+              </svg>
+            </div>
+            <h3>Organisation der An- & Abreise</h3>
+            <p>Wir kümmern uns um die komplette Logistik, von der Anreise bis zum reibungslosen Wechsel der Betreuungskräfte.</p>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="service-card reveal reveal-delay-3">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <h3>Laufende Betreuung</h3>
+            <p>Feste Ansprechpartner begleiten Sie während des gesamten Einsatzes – für alle Fragen und Anliegen.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WARUM WIR / WHY US SECTION
+         ============================================================ -->
+    <section class="section section-alt" id="warum-wir" aria-labelledby="warum-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="subtitle reveal">Warum wir die richtige Wahl sind</p>
+          <h2 id="warum-heading" class="reveal reveal-delay-1">Vertrauen, Verlässlichkeit & persönlicher Umgang</h2>
+          <p class="reveal reveal-delay-2">Was uns von anderen unterscheidet — und warum Familien uns vertrauen.</p>
+        </header>
+
+        <div class="why-grid">
+          <article class="why-card reveal">
+            <span class="why-number" aria-hidden="true">01</span>
+            <div class="why-content">
+              <h3>Persönliche Betreuung</h3>
+              <p>Feste Ansprechpartner, die Ihre Situation kennen und Sie individuell begleiten — keine anonyme Hotline.</p>
+            </div>
+          </article>
+
+          <article class="why-card reveal reveal-delay-1">
+            <span class="why-number" aria-hidden="true">02</span>
+            <div class="why-content">
+              <h3>Transparente Abläufe</h3>
+              <p>Rechtssichere Vermittlung mit klaren Verträgen und nachvollziehbaren Prozessen, auf die Sie sich verlassen können.</p>
+            </div>
+          </article>
+
+          <article class="why-card reveal reveal-delay-2">
+            <span class="why-number" aria-hidden="true">03</span>
+            <div class="why-content">
+              <h3>Verlässliche Partner</h3>
+              <p>Langjährige Zusammenarbeit mit geprüften Partneragenturen in Osteuropa für höchste Qualitätsstandards.</p>
+            </div>
+          </article>
+
+          <article class="why-card reveal reveal-delay-3">
+            <span class="why-number" aria-hidden="true">04</span>
+            <div class="why-content">
+              <h3>Faire & planbare Kosten</h3>
+              <p>Transparente Preisgestaltung ohne versteckte Gebühren — damit Sie von Anfang an sicher kalkulieren können.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROCESS / ABLAUF SECTION
+         ============================================================ -->
+    <section class="section process-section" aria-labelledby="process-heading">
+      <div class="container">
+        <header class="section-header centered">
+          <p class="subtitle reveal">So funktioniert es</p>
+          <h2 id="process-heading" class="reveal reveal-delay-1">In vier Schritten zur passenden Betreuung</h2>
+        </header>
+
+        <div class="process-timeline">
+          <article class="process-step reveal">
+            <div class="process-marker" aria-hidden="true">1</div>
+            <div class="process-card">
+              <h3>Erstgespräch & Bedarfsanalyse</h3>
+              <p>In einem persönlichen Gespräch erfassen wir die Bedürfnisse, Wünsche und die häusliche Situation Ihrer Angehörigen.</p>
+            </div>
+          </article>
+
+          <article class="process-step reveal reveal-delay-1">
+            <div class="process-marker" aria-hidden="true">2</div>
+            <div class="process-card">
+              <h3>Auswahl der Betreuungskraft</h3>
+              <p>Auf Basis Ihres Profils wählen wir passende Alltagsbegleiter*innen aus – menschlich und fachlich geprüft.</p>
+            </div>
+          </article>
+
+          <article class="process-step reveal reveal-delay-2">
+            <div class="process-marker" aria-hidden="true">3</div>
+            <div class="process-card">
+              <h3>Anreise & Einarbeitung</h3>
+              <p>Wir organisieren die Anreise und sorgen für eine sanfte Eingewöhnung im Zuhause Ihrer Angehörigen.</p>
+            </div>
+          </article>
+
+          <article class="process-step reveal reveal-delay-3">
+            <div class="process-marker" aria-hidden="true">4</div>
+            <div class="process-card">
+              <h3>Laufende Begleitung</h3>
+              <p>Ihr fester Ansprechpartner bleibt während des gesamten Einsatzes an Ihrer Seite – bei Fragen, Wechseln oder Anpassungen.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         UEBER UNS / ABOUT SECTION
+         ============================================================ -->
+    <section class="section section-alt" id="ueber-uns" aria-labelledby="about-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="subtitle reveal">Über uns</p>
+          <h2 id="about-heading" class="reveal reveal-delay-1">Ein Familienunternehmen mit Herz</h2>
+        </header>
+
+        <div class="about-intro">
+          <div class="about-text reveal-left">
+            <p>
+              Hinter Herz-Licht Alltagshilfe stehen <strong>Gabriela, Carolin und Marco Fußer</strong> — ein Familienunternehmen, das mit persönlichem Engagement dafür sorgt, dass ältere Menschen möglichst lange und würdevoll im eigenen Zuhause leben können.
+            </p>
+            <p>
+              Unsere Motivation ist es, Menschen dabei zu unterstützen, ihren vertrauten Alltag beizubehalten — mit einer liebevollen Betreuungskraft an ihrer Seite, die nicht nur im Haushalt hilft, sondern auch eine echte persönliche Bezugsperson wird.
+            </p>
+            <blockquote class="about-quote">
+              „Uns ist wichtig, dass sich sowohl die Senioren als auch deren Angehörige gut aufgehoben fühlen — von der ersten Beratung bis zur laufenden Betreuung."
+            </blockquote>
+          </div>
+          <div class="about-image-wrapper reveal-right">
+            <img src="assets/hero.png" alt="Fürsorge und menschliche Wärme im Zuhause" width="600" height="400">
+            <div class="about-image-badge">
+              <span>💚</span> Familiär & persönlich
+            </div>
+          </div>
+        </div>
+
+        <!-- Team -->
+        <div class="team-grid">
+          <article class="team-card reveal">
+            <img src="assets/team-gabriela.png" alt="Gabriela Fußer – Gründerin" class="team-photo" width="400" height="320" loading="lazy">
+            <div class="team-info">
+              <h3>Gabriela Fußer</h3>
+              <p>Gründerin & Beratung</p>
+            </div>
+          </article>
+
+          <article class="team-card reveal reveal-delay-1">
+            <img src="assets/team-carolin.png" alt="Carolin Fußer – Organisation" class="team-photo" width="400" height="320" loading="lazy">
+            <div class="team-info">
+              <h3>Carolin Fußer</h3>
+              <p>Organisation & Koordination</p>
+            </div>
+          </article>
+
+          <article class="team-card reveal reveal-delay-2">
+            <img src="assets/team-marco.png" alt="Marco Fußer – Kundenbetreuung" class="team-photo" width="400" height="320" loading="lazy">
+            <div class="team-info">
+              <h3>Marco Fußer</h3>
+              <p>Kundenbetreuung & Partnerschaften</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         KONTAKT / CONTACT SECTION
+         ============================================================ -->
+    <section class="section" id="kontakt" aria-labelledby="kontakt-heading">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info reveal-left">
+            <p class="subtitle">Kontakt</p>
+            <h2 id="kontakt-heading">Wir sind für Sie da</h2>
+            <p>Haben Sie Fragen oder möchten Sie eine unverbindliche Beratung? Kontaktieren Sie uns — wir melden uns schnellstmöglich bei Ihnen.</p>
+
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </div>
+                <div class="contact-item-text">
+                  <strong>Telefon</strong>
+                  <span>+49 (0) 123 456 789</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div class="contact-item-text">
+                  <strong>E-Mail</strong>
+                  <span>info@fusser-betreuung.de</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                  </svg>
+                </div>
+                <div class="contact-item-text">
+                  <strong>Anschrift</strong>
+                  <span>Herz-Licht Alltagshilfe<br>Musterstraße 1, 12345 Musterstadt</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-values">
+              <span class="value-badge">✓ Schnelle Bearbeitung</span>
+              <span class="value-badge">✓ Individuelle Beratung</span>
+              <span class="value-badge">✓ Vertraulichkeit garantiert</span>
+            </div>
+          </div>
+
+          <div class="contact-form-card reveal-right">
+            <h3>Unverbindlich anfragen</h3>
+            <form id="contact-form" class="form-grid" novalidate>
+              <div class="form-group">
+                <label for="vorname" class="form-label">Vorname</label>
+                <input type="text" id="vorname" name="vorname" class="form-input" placeholder="Ihr Vorname" required>
+              </div>
+              <div class="form-group">
+                <label for="nachname" class="form-label">Nachname</label>
+                <input type="text" id="nachname" name="nachname" class="form-input" placeholder="Ihr Nachname" required>
+              </div>
+              <div class="form-group full-width">
+                <label for="email" class="form-label">E-Mail</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="ihre@email.de" required>
+              </div>
+              <div class="form-group full-width">
+                <label for="telefon" class="form-label">Telefon</label>
+                <input type="tel" id="telefon" name="telefon" class="form-input" placeholder="+49 123 456 789">
+              </div>
+              <div class="form-group full-width">
+                <label for="nachricht" class="form-label">Ihre Nachricht</label>
+                <textarea id="nachricht" name="nachricht" class="form-textarea" placeholder="Beschreiben Sie kurz Ihre Situation oder Ihr Anliegen…" required></textarea>
+              </div>
+              <div class="form-group full-width form-submit">
+                <button type="submit" class="btn btn-primary" id="submit-btn">
+                  Nachricht senden
+                  <svg class="btn-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 10h10M11 6l4 4-4 4"/></svg>
+                </button>
+                <p class="form-note">Wir melden uns innerhalb von 24 Stunden bei Ihnen.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo-text" aria-label="Zurück zum Anfang">Herz-Licht</a>
+          <p>Würdevolles Altern in den eigenen vier Wänden. Wir vermitteln liebevolle 24-Stunden-Betreuung für Senioren zuhause.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <nav class="footer-links" aria-label="Footer-Navigation">
+            <a href="#hero" class="footer-link">Startseite</a>
+            <a href="#angebot" class="footer-link">Angebot</a>
+            <a href="#warum-wir" class="footer-link">Warum wir</a>
+            <a href="#ueber-uns" class="footer-link">Über uns</a>
+            <a href="#kontakt" class="footer-link">Kontakt</a>
+          </nav>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Kontakt</h4>
+          <div class="footer-links">
+            <span class="footer-link">+49 (0) 123 456 789</span>
+            <span class="footer-link">info@fusser-betreuung.de</span>
+            <span class="footer-link">Musterstraße 1<br>12345 Musterstadt</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Herz-Licht Alltagshilfe. Alle Rechte vorbehalten.</span>
+        <div class="footer-legal">
+          <a href="#" id="open-impressum">Impressum</a>
+          <a href="#" id="open-datenschutz">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       IMPRESSUM MODAL
+       ============================================================ -->
+  <div class="modal-overlay" id="impressum-modal" role="dialog" aria-labelledby="impressum-title" aria-modal="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Schließen">&times;</button>
+      <h2 id="impressum-title">Impressum</h2>
+      <h3>Angaben gemäß § 5 TMG</h3>
+      <p>
+        Herz-Licht Alltagshilfe<br>
+        Gabriela Fußer<br>
+        Musterstraße 1<br>
+        12345 Musterstadt
+      </p>
+      <h3>Kontakt</h3>
+      <p>
+        Telefon: +49 (0) 123 456 789<br>
+        E-Mail: info@fusser-betreuung.de
+      </p>
+      <h3>Haftungsausschluss</h3>
+      <p>Die Inhalte dieser Webseite wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte übernehmen wir keine Gewähr.</p>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       DATENSCHUTZ MODAL
+       ============================================================ -->
+  <div class="modal-overlay" id="datenschutz-modal" role="dialog" aria-labelledby="datenschutz-title" aria-modal="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Schließen">&times;</button>
+      <h2 id="datenschutz-title">Datenschutzerklärung</h2>
+      <h3>1. Allgemeine Hinweise</h3>
+      <p>Die folgenden Hinweise geben einen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Webseite besuchen.</p>
+      <h3>2. Datenerfassung auf dieser Webseite</h3>
+      <p>Die Datenverarbeitung auf dieser Webseite erfolgt durch den Webseitenbetreiber. Wenn Sie uns über das Kontaktformular eine Anfrage senden, werden Ihre Angaben zur Bearbeitung der Anfrage bei uns gespeichert.</p>
+      <h3>3. Ihre Rechte</h3>
+      <p>Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht auf Berichtigung oder Löschung dieser Daten.</p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
