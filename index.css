@@ -420,7 +420,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center 25%;
   filter: brightness(0.45);
   transform: scale(1.05);
   transition: transform 8s ease-out;
@@ -894,6 +894,7 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space-4);
+  margin-top: var(--space-8);
 }
 
 .team-card {
@@ -912,9 +913,22 @@ p {
 
 .team-photo {
   width: 100%;
-  height: 320px;
+  height: 340px;
   object-fit: cover;
   transition: transform var(--transition-slow);
+}
+
+/* Individuelle Bildausrichtung, damit die Köpfe auf gleicher Höhe sind */
+.team-card:nth-child(1) .team-photo {
+  object-position: center 40%;
+}
+
+.team-card:nth-child(2) .team-photo {
+  object-position: center 15%;
+}
+
+.team-card:nth-child(3) .team-photo {
+  object-position: center 25%;
 }
 
 .team-card:hover .team-photo {
